@@ -1,0 +1,29 @@
+#red{
+    color: red;
+}
+
+.homeboxes{
+    margin-bottom: 0;
+    width: 200px;
+   
+}
+
+.homeimage{
+    margin-top: -20px;
+    width:200px;
+    padding: 10px;
+}
+
+#homebox{
+    margin-top: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: green;
+  
+   
+   
+}
+.navbar{
+    margin-top: 0px;
+}
