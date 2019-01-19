@@ -10,6 +10,13 @@
     
    
 }
+#chasis{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
 
 #homeimage{
     width:260;
@@ -35,4 +42,16 @@
 }
 .navbar{
     margin-top: 0px;
+}
+#theElement-0, 
+#theElement-a, 
+#theElement-b {
+	position: relative;
+}
+
+
+
+
+.panel-body {
+	padding: 15px 15px 50px;
 }

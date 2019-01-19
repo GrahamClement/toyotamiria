@@ -27,3 +27,17 @@
 .navbar{
     margin-top: 0px;
 }
+#theElement-0, 
+#theElement-a, 
+#theElement-b {
+	position: relative;
+}
+
+
+
+
+
+
+.panel-body {
+	padding: 15px 15px 50px;
+}
