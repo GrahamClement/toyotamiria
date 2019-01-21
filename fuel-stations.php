@@ -15,6 +15,21 @@
     
     
     <title>How it works page Toyota Mirai</title>
+    
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 800px;
+        width:600px;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
   </head>
 <header>
     <div class="container">
@@ -70,47 +85,49 @@
     </div>
 </nav>
 
-<body>
-<div>
+ 
+  <body>
+    <main class="container">
+    <div class="row">
+    <div class="col-6">
+      
+      <p>test test test</p>
+    </div>
+    <div class="col-6" id="map"></div>
+    </div>
+    </main>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: new google.maps.LatLng(54.463714,-3.865305),
+          mapTypeId: 'terrain'
+        });
 
-</div>
-<div class="container col-12" id="chasis">
-  <h2> How it Works</h2>
-	<div class="panel panel-info" id="example-admin">
+        // Create a <script> tag and set the USGS URL as the source.
+        var script = document.createElement('script');
+        // This example uses a local copy of the GeoJSON stored at
+        // http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_week.geojsonp
+        script.src = 'https://developers.google.com/maps/documentation/javascript/examples/json/earthquake_GeoJSONP.js';
+        document.getElementsByTagName('head')[0].appendChild(script);
+      }
 
-			<div id="theElement-0">
-				<img src="images/numbered-chasis.png">
-			</div>
-	
-<script type="text/javascript" src="jquery.hotspot.js"></script>
-
-<script type="text/javascript">
-	$("#theElement-0").hotspot({
-		mode: 'display',
-			data: [
-			{"x":46,"y":19,"Title":"Delhi","Message":"	<img src='images/mirai-side.png'><p>Delhi, India's capital territory, is a massive"},
-			{"x":47,"y":29,"Title":"Mumbai","Message":"Mumbai (formerly called Bombay) is a densely"},
-    	{"x":57,"y":38,"Title":"Mumbai","Message":"Mumbai (formerly called Bombay) is a densely populated"},
-      {"x":50,"y":46,"Title":"Fuel Cell Stack","Message":"<img src='images/stack.png'><p>A chemical  reation coverts hydrogen and oxygen to electricity and then transmits that electrictiy to the motor."},
-	    {"x":54,"y":61,"Title":"Hydrogen Tanks","Message":"<img src='images/mirai-side.png'><p>.The Miria has two high-pressure hydrogen tanks. When full they will allow the Mirai to travel for approximately 650 kms. Refilled in around five  minutes.</p> "},
-    {"x":61,"y":74,"Title":"Mumbai","Message":"Mumbai (formerly called Bombay) is a densely populated city on India's west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry.</p>"},
-    {"x":50,"y":80,"Title":"Mumbai","Message":"Mumbai (formerly called Bombay) is a densely populated city on India's west coast. A financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway of India stone arch, built by the British Raj in 1924. Offshore, nearby Elephanta Island holds ancient cave temples dedicated to the Hindu god Shiva. The city's also famous as the heart of the Bollywood film industry.</p>"}	
-	],
-		interactivity: "hover"
-	});
-</script>
-
-
-    
-    
-  	</div>
-	</div>
-</div>
-<div>
-  
-    
-</div>
-</div>
- </body>
-
+      // Loop through the results array and place a marker for each
+      // set of coordinates.
+      window.eqfeed_callback = function(results) {
+        for (var i = 0; i < results.features.length; i++) {
+          var coords = results.features[i].geometry.coordinates;
+          var latLng = new google.maps.LatLng(coords[1],coords[0]);
+          var marker = new google.maps.Marker({
+            position: latLng,
+            map: map
+          });
+        }
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBT21ikQWeCvyR6RrtvE_A2VZDR9tLPhrk&callback=initMap">
+    </script>
+  </body>
 </html>

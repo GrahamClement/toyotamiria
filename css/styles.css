@@ -14,19 +14,19 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 30%;
 }
 
 
 #homeimage{
-    width:260;
+    width:260px;
     margin-left:10px;
     height:150px;
    
 }
 
 #homeimage2{
-    width:260;
+    width:260px;
     margin-left:20px;
 }
 #homebox{

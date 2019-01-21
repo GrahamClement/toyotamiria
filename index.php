@@ -1,4 +1,4 @@
-<!doctype html>
+<doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="/css/styles1.css" rel="stylesheet" type="text/css">
     <title>Homepage Toyota Mirai</title>
   </head>
   <body>
@@ -18,7 +18,7 @@
       <div class="col-2">
           <img src="images/toyota-logo.jpg" style="width: 60px;">
       </div>
-      <div class="col-8">
+      <div class="col-6">
           <h1 class="text-center" id="red">Toyota Mirai</h1>   
       </div>
     
@@ -42,7 +42,7 @@
           <a class="nav-link" href="how-it-works.php">How it Works</a>
             </li>
           <li class="nav-item">
-          <a class="nav-link" href="#">Fuel Stations</a>
+          <a class="nav-link" href="fuel-stations.php">Fuel Stations</a>
              </li>
            <li class="nav-item">
           <a class="nav-link" href="#">Reviews</a>

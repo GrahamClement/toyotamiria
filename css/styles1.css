@@ -3,27 +3,54 @@
 }
 
 .homeboxes{
-    margin-bottom: 0;
-    width: 200px;
+    width: 260px;
+   
+  
+   
+    
+   
+}
+#chasis{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+
+#homeimage{
+
+    margin-left:10px;
+    height:150px;
    
 }
 
-.homeimage{
-    margin-top: -20px;
-    width:200px;
-    padding: 10px;
+#homeimage2{
+   
+    margin-left:20px;
+    
 }
-
 #homebox{
     margin-top: 5px;
     border-radius: 5px;
     border-style: solid;
     border-width: 3px;
-    border-color: green;
-  
+    border-color: black;
+    padding-bottom: 10px;
+    margin-right: 2px;
+    height:210px;
+}   
    
-   
+
+
+#headermargin{
+    margin-top: -70px;
+    padding-right: 90px;
+    font-size: 50px;
+    color: red;
+    margin-bottom:0px;
 }
+
 .navbar{
     margin-top: 0px;
 }
@@ -31,9 +58,8 @@
 #theElement-a, 
 #theElement-b {
 	position: relative;
+
 }
-
-
 
 
 
