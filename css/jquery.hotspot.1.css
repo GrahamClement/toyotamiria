@@ -26,7 +26,8 @@
 	border-radius: 4px;
 	overflow: hidden;
 	font-size: 10px;
-	display:none; /* Required */
+	display:none; 
+	margin-right: 170px/* Required */
 }
 .HotspotPlugin_Hotspot:hover > div {
 	display: block; /* Required */

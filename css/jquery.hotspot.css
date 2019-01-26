@@ -3,10 +3,10 @@
 * 
 */
 .HotspotPlugin_Hotspot {
-	height: 20px;
-	width: 20px;
+	height: 30px;
+	width: 30px;
 	position: absolute;
-	background: #1ABC9C;
+	background: rgba(255, 0, 0, 0.0);
 	border-radius: 50%;
 	cursor: pointer;
 	z-index: 200;
@@ -19,14 +19,14 @@
 * 
 */
 .HotspotPlugin_Hotspot > div {
-	background: rgba(26, 188, 156, 0.4);
-	width: 400px;
-	height: 200px;
-	margin: px -60px;*/
+	background: rgba(26, 188, 156, 0.7);
+	width: 164px;
+	height: 300px;
+    margin: -120px -230px; 
 	border-radius: 4px;
-	overflow: hidden;
+	overflow: hidden; 
 	font-size: 10px;
-	display:none; /* Required */
+	display:none;/* Required */
 }
 .HotspotPlugin_Hotspot:hover > div {
 	display: block; /* Required */
@@ -35,13 +35,13 @@
 	background: rgba(255, 255, 255, 0.4);
 	height: 20px;
 	font-weight: bold;
-	padding: 4px 10px;
+	padding: 4px 4px;
 }
 .HotspotPlugin_Hotspot > div > .Hotspot_Message {
 	background: rgba(255, 255, 255, 0.4);
 	margin-top: 2px;
-	padding: 4px 10px;
-	height: 72px;
+	padding: 1px 1px;
+	height: 280px;
 	overflow-y: auto;
 }
 .HotspotPlugin_Hotspot_Hidden {

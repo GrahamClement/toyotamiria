@@ -1,5 +1,6 @@
 #red{
-    color: red;
+    color: blue;
+    margin-top: -200px;
 }
 
 .homeboxes{
@@ -41,7 +42,10 @@
     height:210px;
 }   
    
-
+#howheading{
+    font-size: 2.5vw;
+    
+}
 
 #headermargin{
     margin-top: -70px;
@@ -67,3 +71,5 @@
 .panel-body {
 	padding: 15px 15px 50px;
 }
+
+

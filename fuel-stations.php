@@ -7,14 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="/css/styles1.css" rel="stylesheet" type="text/css">
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
     	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	    <script type="text/javascript" src="js/jquery.min.js"></script>
-    	<link rel="stylesheet" type="text/css" href="jquery.hotspot.1.css">
-    	
+	   
     
     
-    <title>How it works page Toyota Mirai</title>
+    <title>Fuel Stations Page Toyota Mirai</title>
     
     <style>
       /* Always set the map height explicitly to define the size of the div
@@ -33,17 +31,10 @@
   </head>
 <header>
     <div class="container">
-    <div class="row">
-      <div class="col-2">
-          <img src="images/toyota-logo.jpg" style="width: 60px;">
-      </div>
-      <div class="col-6">
+             <img src="images/toyota-logo.jpg" style="width: 60px;">
           <h1 class="text-center" id="red">Toyota Mirai</h1>   
       </div>
     
-   </div>
-    </div>
-   </div>
 </header>
     
 <nav class="navbar navbar-expand-sm navbar-light bg-light" data-toggle="affix">
@@ -57,53 +48,78 @@
             <a class="nav-link" href="index.php">Home</a>
             </li>
           <li class="nav-item">
-          <a class="nav-link" href="#">About the Mirai</a>
+          <a class="nav-link" href="about-the-mirai.php">About the Mirai</a>
             </li>
           <li class="nav-item">
-          <a class="nav-link active" href="how-it-works">How it Works</a>
+          <a class="nav-link" href="how-it-works.php">How it Works</a>
             </li>
           <li class="nav-item">
-          <a class="nav-link" href="fuel-stations.php">Fuel Stations</a>
+          <a class="nav-link active" href="fuel-stations.php">Fuel Stations</a>
              </li>
            <li class="nav-item">
-          <a class="nav-link" href="#">Reviews</a>
+          <a class="nav-link" href="reviews.php">Reviews</a>
              </li>
            <li class="nav-item">
-          <a class="nav-link" href="#">Get a Mirai</a>
+          <a class="nav-link" href="get-a-mirai.php">Get a Mirai</a>
              </li>
            <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" href="blog.php">Blog</a>
              </li>
            <li class="nav-item">
-             <a class="nav-link" href="#">Contact</a>
+             <a class="nav-link" href="contact.php">Contact</a>
              </li>
            <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="about-us.php">About Us</a>
           </li>  
             </ul>
         </div>
     </div>
 </nav>
-
+<h1 class="text-center">Fuel Stations</h1>
  
   <body>
-    <main class="container">
+    <div class="container col-12">
     <div class="row">
-    <div class="col-6">
+    <div class="col-md-6">
       
-      <p>test test test</p>
+    <p>The map to the right shows the current location of operating stations. Or you can enter your location in the form below to find out where your nearest refuelling station is. </p>
+      <h3 class="text-center">Nearest Fuel Station</h3>
+     
+    <form action="" method="post" id="fuel_station" >
+  <div class="form-group d-flex justify-content-sm-center">
+    <div class="col-6">
+        <label class="form-control-label" for="city">City</label>
+        <input type="text" class="form-control" name="city" autocomplete="city"  placeholder="city">
     </div>
-    <div class="col-6" id="map"></div>
+  </div>
+  <div class="form-group d-flex justify-content-sm-center">
+    <div class="col-6">
+        <label class="form-control-label" for="counry">County/region</label>
+        <input type="text" class="form-control" name="county" autocomplete="County" placeholder="County" >
     </div>
-    </main>
+  </div>
+    <div class="text-center">
+  <button type="submit" name="submit"  class="btn btn-primary btn-center" id="submit">Submit</button>
+  </div>
+  <p class="text-center">Your Nearest Station (placeholder)<p>
+</form>
+    </div>
+    <div class="col-md-6" id="map"></div>
+    </div>
+    </div>
+    <!--the code that follows is a demo from google. Google Maps Platform. (2018). Importing data into google maps. https://developers.google.com/maps/documentation/javascript/importing_data-->
     <script>
       var map;
+      var fuel = {lat: 55.444444, lng: -3.861310};
+      var fuel2 = {lat: 56.444444, lng: -4.861310};
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           zoom: 6,
           center: new google.maps.LatLng(54.463714,-3.865305),
           mapTypeId: 'terrain'
         });
+        var marker = new google.maps.Marker({position: fuel, map: map});
+        var marker = new google.maps.Marker({position: fuel2, map: map});
 
         // Create a <script> tag and set the USGS URL as the source.
         var script = document.createElement('script');
