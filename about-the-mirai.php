@@ -61,7 +61,7 @@
 
 <div class="container col-12">
 <div class="row">
-<div class="col-6">  
+<div class="col-md-6">  
  
 <h3>What is the Mirai</h3> 
 
@@ -80,7 +80,7 @@ Ex usu inermis postulant suavitate. Duo saepe graecis erroribus ea, fuisset corp
 
 </div>
 
-<div class="col-6">
+<div class="col-md-6">
 <div class="video">
 <iframe width="100%" height="560" src="https://www.youtube.com/embed/xTcltAlzx4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
@@ -88,7 +88,7 @@ Ex usu inermis postulant suavitate. Duo saepe graecis erroribus ea, fuisset corp
 
 <div class="container col-12">
 <div class="row">
-<div class="col-6">  
+<div class="col-md-6">  
 
 
 <img src="images/transparent-mirai.jpg" width="100%">
@@ -96,7 +96,7 @@ Ex usu inermis postulant suavitate. Duo saepe graecis erroribus ea, fuisset corp
 </div>
 
 
-<div class="col-6">
+<div class="col-md-6">
   
 
 <h3>Environmentally Friendly</h3>
@@ -116,7 +116,7 @@ Ex usu inermis postulant suavitate. Duo saepe graecis erroribus ea, fuisset corp
 
 </div>
 
-<div class="col-6">
+<div class="col-md-6">
   
 
 <h3>Specifications</h3>
@@ -136,7 +136,7 @@ Ex usu inermis postulant suavitate. Duo saepe graecis erroribus ea, fuisset corp
 
 </div>
 
-<div class="col-6 mt-5">  
+<div class="col-md-6 mt-5">  
 
 
 <img src="images/carousel-mirai.png" width="100%">

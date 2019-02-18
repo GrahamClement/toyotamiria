@@ -7,16 +7,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="/css/styles3.css" rel="stylesheet" type="text/css">
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
     	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <title>About Us Toyota Mirai</title>
+    <title>Contact Us Toyota Mirai</title>
   </head>
 <header>
    <div class="container">
              <img src="images/toyota-logo.jpg" style="width: 60px;">
           <h1 class="text-center" id="red">Toyota Mirai</h1>   
       </div>
-    
 </header>
     
 <nav class="navbar navbar-expand-sm navbar-light bg-light" data-toggle="affix">
@@ -58,7 +57,35 @@
     </div>
 </nav>
 <body>
+  <main>
 <h1 class=text-center>Contact</h1>
+
+<div class="container col-12">
+<div class="row">
+<div class="col-md-6">  
+
+
+<p>For more information about this website please contact the email address below</p>
+  
+</p>
+
+<h4>enquiries@toyota.com</h4>
+
+</div>
+<div class="col-md-6">
+
+<img src="images/toyota-logo.jpg" width="50%">
+
+</div>
+
+
+
+
+</div>
+</div>
+
+</main>
+
 
 </body>
 </html>

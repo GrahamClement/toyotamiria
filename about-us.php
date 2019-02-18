@@ -58,7 +58,37 @@
     </div>
 </nav>
 <body>
+  <main>
 <h1 class=text-center>About Us</h1>
 
+<div class="container col-12">
+<div class="row">
+<div class="col-md-6">  
+
+
+<p>Lorem ipsum dolor sit amet, ad debet blandit cotidieque cum, ius altera verear iuvaret ei. Sed sumo suscipit et, no vis veniam quaerendum. Eu nec fuisset phaedrum. Ubique praesent vix ex, ne audiam epicurei accusamus usu.
+
+In atqui iracundia vis, sit ullum sadipscing et. Blandit sententiae ea per, his te modus vidisse perpetua. Et usu porro harum. Iisque oporteat eu pri, qui ea vide populo vivendum, no nusquam erroribus accommodare eam. Ad mea falli errem ocurreret.</p>
+
+<p>>Ex quo alia assentior, pri tacimates concludaturque ut. Veniam expetenda at nam. Duo conceptam rationibus et. Ut est soluta albucius tincidunt, his et agam detraxit cotidieque, pro ad tibique pericula. Eius illud quo an, adhuc menandri vix id, est quod atqui patrioque id. Autem noluisse necessitatibus ne quo, sed at idque offendit, mediocritatem necessitatibus eu vix.
+
+Purto dicunt ocurreret in mel. Mel ei nisl interpretaris. Dolore mucius contentiones id sit, sed ut nobis homero phaedrum. Ius ea iuvaret deterruisset mediocritatem. Ex mea reque paulo mentitum, latine similique constituto no sea. At placerat neglegentur pri, cum elit debitis no. Vix ad augue laudem, vix an habeo inciderint.
+
+Ex usu inermis postulant suavitate. Duo saepe graecis erroribus ea, fuisset corpora iudicabit ad vel, qui augue nonumy suavitate et. Ea ridens copiosae salutandi quo, invidunt consequuntur ius ei, te mel debet affert graecis. Pro cu adhuc verear quaerendum, nostrum iracundia urbanitas cum no, quodsi facilisis sit ad.</p>
+  
+</p>
+
+</div>
+<div class="col-md-6">
+
+<img src="images/toyota-logo.jpg" width="50%">
+
+</div>
+
+
+
+
+</div>
+</main>
 </body>
 </html>

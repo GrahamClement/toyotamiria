@@ -63,7 +63,7 @@
 <h1 class=text-center>Reviews</h1>
 <div class="container col-12">
 <div class="row">
-<div class="col-6">
+<div class="col-md-6">
 
 
 <p> In 2015 Jack Rix from Top Gear said "What the Mirai does prove, though, is that although expensive, fuel cell technology works and, as a driving experience at least, it’s ready to enter the mainstream. Hats off to Toyota for taking the plunge. And take the plunge we did, with rapidly improving technology and performance. </P>
@@ -71,7 +71,7 @@
 
 <p>See what the Fully Charged Show said after test driving the Mirai in the video opposite.</p>
 </div>
-<div class="col-6">
+<div class="col-md-6">
   <div class="video">
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/RO0Rg6n88Cw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

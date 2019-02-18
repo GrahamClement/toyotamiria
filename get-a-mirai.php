@@ -58,7 +58,35 @@
     </div>
 </nav>
 <body>
-<h1 class=text-center>Get A Mirai</h1>
+<main>
+<h1 class="text-center">Get A Mirai</h1>
+
+<div class="container col-12">
+<div class="row">
+<div class="col-md-6">  
+
+
+<h3>Who to Contact</h3>
+
+<p>The Mirai is not yet for sale at local Toyota dealers, to register you interest in leasing, one, please send an email to the address below.</p>
+
+<h4>mirai@toyota.com</h4>
+
+</div>
+<div class="col-md-6">
+
+<img src="images/carousel-mirai-fuelpumps.png" width="100%">
+
+</div>
+
+
+
+
+</div>
+</div>
+
+</main>
+
 
 
 

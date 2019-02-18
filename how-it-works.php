@@ -67,7 +67,7 @@
 <body>
 <div>
  <h2 class="text-center"> How it Works</h2>
- <p class="text-center">Place the cursor over the numbered car sections to find out more information</p>
+ <p class="text-center">Click on the numbered car sections to find out more information about the Mirai.</p>
 </div>
 
 <!--Most of the code below is from a hotspot plugin-->
@@ -93,7 +93,8 @@
     {"x":61,"y":74,"Title": "6. Battery","Message": "<img src='images/battery.png'>convert"},
     {"x":50,"y":80,"Title": "7. Small Fuel Tank","Message":"<img src='images/fuel-tank.png'><p>.The Miria has two high-pressure hydrogen tanks. When full they will allow the Mirai to travel for approximately 650 kms. Refilled in around five minutes."}	
 	],
-		interactivity: "hover"
+		interactivity: "click" 
+		
 	});
 </script>
 
