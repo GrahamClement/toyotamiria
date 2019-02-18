@@ -152,7 +152,7 @@ var fuel2 = {lat: 56.444444, lng: -4.861310};
         }
       }
     </script>
-     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBT21ikQWeCvyR6RrtvE_A2VZDR9tLPhrk&callback=initMap"
+     <script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"
   type="text/javascript"></script>
    <script src="fuel.js"></script>
   </body>
